@@ -1,6 +1,6 @@
 # Mi Clave Pública PGP
 
-¡Hola! En este repositorio comparto mi clave pública PGP para que puedas encriptar correos electrónicos o mensajes de manera segura, asegurándote de que solo yo pueda leerlos. Es perfecto para comunicaciones confidenciales con Proton Mail u otras herramientas compatibles con PGP. Si tienes dudas sobre cómo importarla, echa un vistazo a guías en sitios como [proton.me](https://proton.me), ([gnupg.org](https://www.gnupg.org/documentation/guides.html)) o [seguridad.unam.mx](https://www.seguridad.unam.mx/sites/default/files/guia-cifrado-asimetrico-con-kleopatra.pdf)
+¡Hola! En este repositorio comparto mi clave pública PGP para que puedas encriptar correos electrónicos o mensajes de manera segura, asegurándote de que solo yo pueda leerlos. Es perfecto para comunicaciones confidenciales con Proton Mail u otras herramientas compatibles con PGP. Si tienes dudas sobre cómo importarla, echa un vistazo a guías en sitios como [proton.me](https://proton.me), [gnupg.org](https://gnupg.org) o [seguridad.unam.mx](https://www.seguridad.unam.mx/sites/default/files/guia-cifrado-asimetrico-con-kleopatra.pdf).
 
 ### Detalles de la Clave
 La clave tiene un fingerprint de 969C 0614 BA83 3E17 D0DC 6E5D E194 A408 A68C C1BE, y está asociada al email dr.nietodavid@protonmail.com. Puedes verificar estos detalles para confirmar su autenticidad antes de usarla.
@@ -31,6 +31,4 @@ Si prefieres descargar la clave en un archivo listo para importar, haz clic en [
 ¡Gracias por visitar! Si me contactas usando esta clave, no olvides verificar el fingerprint para evitar cualquier suplantación. Si actualizo la clave en el futuro, lo anunciaré aquí con un nuevo commit para que estés al tanto. ¿Tienes preguntas o necesitas ayuda? Envíame un correo encriptado y charlamos. 😊
 
 ### Contacto
-Mi única red social (demás de github) es X (anteriormente Twitter), donde comparto actualizaciones y más. Sígueme en [@david_nieto01](https://x.com/david_nieto01).
-
-
+Mi única red social (además de GitHub) es X (anteriormente Twitter), donde comparto actualizaciones y más. Sígueme en [@david_nieto01](https://x.com/david_nieto01).
