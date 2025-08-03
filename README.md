@@ -23,3 +23,14 @@ vgIbDAAAlBEA/3I7c0ttCVa/yiIUiLeVQUZCXcFHGAhNEs2wt3Inc6e5AP9C
 XoKMgV1LAckTOi5pE11W7n3zWeiDQnthDL3w7dPFCw==
 =lz6O
 -----END PGP PUBLIC KEY BLOCK-----
+```
+
+### Descarga el Archivo
+Si prefieres descargar la clave en un archivo listo para importar, haz clic en [clave-publica.asc](./clave-publica.asc) directamente en este repositorio. Es un archivo .asc estándar que puedes usar de inmediato en la mayoría de las herramientas PGP, lo que facilita el proceso sin tener que copiar y pegar manualmente.
+
+¡Gracias por visitar! Si me contactas usando esta clave, no olvides verificar el fingerprint para evitar cualquier suplantación. Si actualizo la clave en el futuro, lo anunciaré aquí con un nuevo commit para que estés al tanto. ¿Tienes preguntas o necesitas ayuda? Envíame un correo encriptado y charlamos. 😊
+
+### Contacto
+Mi única red social (demás de github) es X (anteriormente Twitter), donde comparto actualizaciones y más. Sígueme en [@david_nieto01](https://x.com/david_nieto01).
+
+
