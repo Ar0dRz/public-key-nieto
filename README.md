@@ -1,6 +1,6 @@
 # Mi Clave Pública PGP
 
-¡Hola! En este repositorio comparto mi clave pública PGP para que puedas encriptar correos electrónicos o mensajes de manera segura, asegurándote de que solo yo pueda leerlos. Es perfecto para comunicaciones confidenciales con Proton Mail u otras herramientas compatibles con PGP. Si tienes dudas sobre cómo importarla, echa un vistazo a guías en sitios como [proton.me](https://proton.me), [gnupg.org](https://gnupg.org) o [seguridad.unam.mx](https://www.seguridad.unam.mx/sites/default/files/guia-cifrado-asimetrico-con-kleopatra.pdf).
+¡Hola! En este repositorio comparto mi clave pública PGP para que puedas encriptar correos electrónicos o mensajes de manera segura, asegurándote de que solo yo pueda leerlos. Es perfecto para comunicaciones confidenciales con Proton Mail u otras herramientas compatibles con PGP. Si tienes dudas sobre cómo importarla, echa un vistazo a guías en sitios como [proton.me](https://proton.me), [openpgp.org](https://www.openpgp.org), [gnupg.org](https://gnupg.org) o [seguridad.unam.mx](https://www.seguridad.unam.mx/sites/default/files/guia-cifrado-asimetrico-con-kleopatra.pdf).
 
 ### Detalles de la Clave
 La clave tiene un fingerprint de 969C 0614 BA83 3E17 D0DC 6E5D E194 A408 A68C C1BE, y está asociada al email dr.nietodavid@protonmail.com. Puedes verificar estos detalles para confirmar su autenticidad antes de usarla.
