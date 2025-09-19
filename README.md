@@ -1,4 +1,4 @@
-# Mi Clave Pública PGP
+# Mis Claves Públicas PGP
 
 ¡Hola! En este repositorio comparto mis 2 claves públicas PGP para que puedas encriptar correos electrónicos o mensajes de manera segura, asegurándote de que solo yo pueda leerlos. Es perfecto para comunicaciones confidenciales con Proton Mail, Thunderbird u otras herramientas compatibles con PGP. Si tienes dudas sobre cómo importarla, echa un vistazo a guías en sitios como [proton.me](https://proton.me), [key.openpgp.org](https://keys.openpgp.org), [openpgp.org](https://www.openpgp.org), [gnupg.org](https://gnupg.org) o [seguridad.unam.mx](https://www.seguridad.unam.mx/sites/default/files/guia-cifrado-asimetrico-con-kleopatra.pdf).
 
