@@ -31,5 +31,16 @@ XoKMgV1LAckTOi5pE11W7n3zWeiDQnthDL3w7dPFCw==
 =lz6O
 -----END PGP PUBLIC KEY BLOCK-----
 ```
+## Verificar autenticidad
+
+Para verificar que esta llave pública no fue alterada:
+
+1. Importa la llave pública:
+   gpg --import clave-publica.asc
+
+2. Verifica la firma:
+   gpg --verify clave-publica.asc.sig clave-publica.asc
+
+Un "Good signature" confirma que el archivo es auténtico.
 
 ¡Gracias por visitar! Si me contactas usando esta clave, no olvides verificar el fingerprint para evitar cualquier suplantación. Si actualizo la clave en el futuro, lo anunciaré aquí con un nuevo commit para que estés al tanto. ¿Tienes preguntas o necesitas ayuda? Envíame un correo encriptado y charlamos. 😊
