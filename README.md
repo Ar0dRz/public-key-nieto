@@ -1,8 +1,8 @@
 # Clave Pública PGP
 
-¡Hola! En este repositorio comparto mi clave pública PGP para que puedas cifrar correos electrónicos o mensajes de manera segura, asegurándote de que solo yo pueda leerlos. Es perfecto para comunicaciones confidenciales con Proton Mail, Thunderbird u otras herramientas compatibles con PGP.
+¡Hola! En este repositorio comparto mis claves públicas PGP para que puedas cifrar correos electrónicos o mensajes de manera segura, asegurándote de que solo yo pueda leerlos. Es perfecto para comunicaciones confidenciales con Proton Mail, Thunderbird u otras herramientas compatibles con PGP.
 
-*Si te interesa Proton, aquí puedes obtener un mes gratis de Proton Plus: [enlace recomendado](https://pr.tn/ref/4SVAYXNQGBHG)*
+*Si te interesa Proton, aquí puedes obtener una prueba gratis de Proton Plus: [enlace recomendado](https://pr.tn/ref/4SVAYXNQGBHG)*
 
 ---
 
@@ -12,18 +12,12 @@ Dependiendo de tu cliente de correo, tienes varias opciones:
 
 ### ✅ Opción 1 — ProtonMail o Tuta
 
-**ProtonMail**: el cifrado E2E es automático al escribirme.
+**ProtonMail**: De proton a proton el cifrado E2E es automático al escribirme a `dr.nietodavid@protonmail.com`.
 **Tuta**: puedes enviarme un mensaje cifrado por contraseña (modo "confidencial"). Compárteme la contraseña por un canal seguro como Signal antes de enviar.
 
-### ✅ Opción 2 — Usas Gmail (recomendado para usuarios de Google)
-Instala **[FlowCrypt](https://flowcrypt.com)**, disponible de forma gratuita para Chrome, Firefox, Android e iOS. Una vez instalado, detecta mi clave pública automáticamente y cifra el mensaje sin configuración adicional. Es la forma más rápida de empezar si ya usas Gmail.
 
-### ⚙️ Opción 3 — Usas Thunderbird u otro cliente compatible con PGP
-Importa mi clave pública directamente desde este repositorio o búscala por mi fingerprint en [keys.openpgp.org](https://keys.openpgp.org):
-
-```
-969C 0614 BA83 3E17 D0DC 6E5D E194 A408 A68C C1BE
-```
+### ⚙️ Opción 2 — Usas Thunderbird u otro cliente compatible con PGP
+Importa mi clave pública directamente desde este repositorio o búscala por mi fingerprint en [keys.openpgp.org](https://keys.openpgp.org).
 
 Si tienes dudas sobre cómo importarla, consulta estas guías:
 - [proton.me](https://proton.me)
@@ -32,14 +26,13 @@ Si tienes dudas sobre cómo importarla, consulta estas guías:
 - [openpgp.org](https://www.openpgp.org)
 - [gnupg.org](https://gnupg.org)
 
-
 ---
 
-## Clave Pública
+## Claves Públicas
 
-Aquí está el bloque completo de la clave en formato ASCII. Copíalo directamente o impórtalo en tu software PGP favorito, como GPG o Kleopatra, para empezar a cifrar.
+### 🔑 Principal — ProtonMail
 
-### Detalles de la clave
+Para comunicaciones profesionales y confidenciales.
 
 | Campo | Valor |
 |---|---|
@@ -47,9 +40,7 @@ Aquí está el bloque completo de la clave en formato ASCII. Copíalo directamen
 | **Fingerprint** | 969C 0614 BA83 3E17 D0DC 6E5D E194 A408 A68C C1BE |
 | **Algoritmo** | Ed25519 |
 
-### Descarga el archivo
-
-Si prefieres descargar la clave en un archivo listo para importar, haz clic en [clave-publica.asc](./clave-publica.asc) directamente en este repositorio. Es un archivo `.asc` estándar compatible con la mayoría de herramientas PGP.
+Descarga: [clave-publica-proton.asc](./clave-publica-proton.asc)
 
 ```pgp
 -----BEGIN PGP PUBLIC KEY BLOCK-----
@@ -70,23 +61,49 @@ XoKMgV1LAckTOi5pE11W7n3zWeiDQnthDL3w7dPFCw==
 
 ---
 
+### 🔑 Secundaria — Gmail
+
+| Campo | Valor |
+|---|---|
+| **Email** | davo.olive18@gmail.com |
+| **Fingerprint** | C829 3765 9CF2 F293 7488  159C 7BCF 80E4 1E44 E1AF |
+| **Algoritmo** | Ed25519 / Curve25519 |
+
+Descarga: [clave-publica-gmail.asc](./clave-publica-gmail.asc)
+
+```pgp
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+
+mDMEahr1yxYJKwYBBAHaRw8BAQdAovqkJmInYntBjhEME+czD8ErZxc/q00ZDd56
+ki6ZifG0HURhdm8gPGRhdm8ub2xpdmUxOEBnbWFpbC5jb20+iHIEExYIABoECwkI
+BwIVCAIWAQIZAQWCahr1ywKeAQKbAwAKCRB7z4DkHkThrxEDAP90YqF4QeToMKk2
+KjDFhp8vCM6Gt3JD6ZemxazTQbs+GwD/aRGv+7zogFDMhyOf1OsS+j2xKzQusL8C
+nVvHTso5fwm4OARqGvXLEgorBgEEAZdVAQUBAQdAjInUO/qScRjCg4IalLLfWZgZ
+BN7IK/YojknkXUlKwxMDAQgHiGEEGBYIAAkFgmoa9csCmwwACgkQe8+A5B5E4a8Z
+qwEAxyXLYIFQRMC9ccJlDuoKsRcmGbslTJVMkc/3epUVjHMA/jf78Mw6ozWZAh5Y
+1x/LQZoXgkn3UUmqDWbEA+uzfIgP
+=4Yc7
+-----END PGP PUBLIC KEY BLOCK-----
+```
+
+---
+
 ## Verificar autenticidad
 
 Para verificar que esta clave pública no fue alterada:
 
 1. Importa la clave pública:
 ```bash
-gpg --import clave-publica.asc
+gpg --import clave-publica-proton.asc
 ```
 
-2. Verifica la firma:
+2. Verifica el fingerprint:
 ```bash
-gpg --verify clave-publica.asc.sig clave-publica.asc
+gpg --fingerprint dr.nietodavid@protonmail.com
 ```
 
-Un mensaje **"Good signature"** confirma que el archivo es auténtico y no fue modificado.
+Confirma que el fingerprint mostrado coincide con el publicado en este repositorio.
 
 ---
 
-¡Gracias por visitar! Si me contactas usando esta clave, verifica siempre el fingerprint para evitar suplantación. Si actualizo la clave en el futuro, lo anunciaré aquí con un nuevo commit. ¿Tienes dudas? Envíame un correo cifrado y charlamos. 😊
-
+¡Gracias por visitar! Si me contactas usando estas claves, verifica siempre el fingerprint para evitar suplantación. Si actualizo las claves en el futuro, lo anunciaré aquí con un nuevo commit. ¿Tienes dudas? Envíame un correo cifrado y charlamos. 😊
