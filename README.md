@@ -15,7 +15,6 @@ Dependiendo de tu cliente de correo, tienes varias opciones:
 **ProtonMail**: De proton a proton el cifrado E2E es automático al escribirme a `dr.nietodavid@protonmail.com`.
 **Tuta**: puedes enviarme un mensaje cifrado por contraseña (modo "confidencial"). Compárteme la contraseña por un canal seguro como Signal antes de enviar.
 
-
 ### ⚙️ Opción 2 — Usas Thunderbird u otro cliente compatible con PGP
 Importa mi clave pública directamente desde este repositorio o búscala por mi fingerprint en [keys.openpgp.org](https://keys.openpgp.org).
 
@@ -66,7 +65,7 @@ XoKMgV1LAckTOi5pE11W7n3zWeiDQnthDL3w7dPFCw==
 | Campo | Valor |
 |---|---|
 | **Email** | davo.olive18@gmail.com |
-| **Fingerprint** | C829 3765 9CF2 F293 7488  159C 7BCF 80E4 1E44 E1AF |
+| **Fingerprint** | C829 3765 9CF2 F293 7488 159C 7BCF 80E4 1E44 E1AF |
 | **Algoritmo** | Ed25519 / Curve25519 |
 
 Descarga: [clave-publica-gmail.asc](./clave-publica-gmail.asc)
@@ -88,6 +87,22 @@ qwEAxyXLYIFQRMC9ccJlDuoKsRcmGbslTJVMkc/3epUVjHMA/jf78Mw6ozWZAh5Y
 
 ---
 
+## 📱 Para usuarios de Android
+
+Si quieres cifrar correos desde tu celular, estas son las apps que uso y recomiendo. Todas disponibles en **[F-Droid](https://f-droid.org)** — el repositorio de apps open source y sin rastreadores.
+
+**[OpenKeychain](https://www.openkeychain.org)** — gestión de llaves PGP en Android. Genera, importa y administra tus llaves directamente en tu dispositivo, sin depender de servicios externos. La llave privada nunca sale de tu hardware.
+
+**[K-9 Mail](https://k9mail.app)** — cliente de correo open source con integración nativa con OpenKeychain. Soporta cifrado y firma PGP de forma transparente al redactar y leer correos.
+
+Ambas funcionan perfectamente juntas y son el estándar recomendado para cifrado de correo en Android.
+
+### 🛡️ ¿Quieres ir más lejos?
+
+Si te tomas en serio la privacidad y seguridad, considera **[GrapheneOS](https://grapheneos.org)** — un sistema operativo Android de código abierto, compatible con dispositivos Google Pixel (próximamente Motorola). Ofrece aislamiento de perfiles, cifrado robusto y eliminación de telemetría. OpenKeychain y K-9 funcionan perfectamente en GrapheneOS instaladas desde F-Droid.
+
+---
+
 ## Verificar autenticidad
 
 Para verificar que esta clave pública no fue alterada:
@@ -103,6 +118,10 @@ gpg --fingerprint dr.nietodavid@protonmail.com
 ```
 
 Confirma que el fingerprint mostrado coincide con el publicado en este repositorio.
+
+---
+
+¡Gracias por visitar! Si me contactas usando estas claves, verifica siempre el fingerprint para evitar suplantación. Si actualizo las claves en el futuro, lo anunciaré aquí con un nuevo commit. ¿Tienes dudas? Envíame un correo cifrado y charlamos. 😊
 
 ---
 
