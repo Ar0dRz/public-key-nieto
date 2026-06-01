@@ -123,6 +123,4 @@ Confirma que el fingerprint mostrado coincide con el publicado en este repositor
 
 ¡Gracias por visitar! Si me contactas usando estas claves, verifica siempre el fingerprint para evitar suplantación. Si actualizo las claves en el futuro, lo anunciaré aquí con un nuevo commit. ¿Tienes dudas? Envíame un correo cifrado y charlamos. 😊
 
----
 
-¡Gracias por visitar! Si me contactas usando estas claves, verifica siempre el fingerprint para evitar suplantación. Si actualizo las claves en el futuro, lo anunciaré aquí con un nuevo commit. ¿Tienes dudas? Envíame un correo cifrado y charlamos. 😊
